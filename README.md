@@ -19,9 +19,9 @@ It will perform the following checks:
 ## Installation / Usage
 Download the ZIP file from the [release](https://github.com/nevbartos/BleemSync.Validator/releases) page.
 
-Extract the contents and run.
+Extract the contents, create your BleemSync USB key as per the instructions on the BleemSync repo.
 
-If more than one drive is found, then type the letter of the drive you want to check.
+Run this utility after your drive is configured, if more than one drive is found, then type the letter of the drive you want to check.
 
 The program will output the name of the check being performed and the status of the check.  
 
