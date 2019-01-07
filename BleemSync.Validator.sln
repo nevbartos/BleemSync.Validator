@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BleemSync.Validator", "BleemSync.Validator\BleemSync.Validator.csproj", "{5FD1AE5F-8A23-4595-A041-E6498339B061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{E733D649-8EB7-4E5B-BF62-574CAC64D1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BleemSync.Validator.Tests", "BleemSync.Validator.Tests\BleemSync.Validator.Tests\BleemSync.Validator.Tests.csproj", "{2809C905-A2A9-4739-AD55-7E9EF123E44B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD1AE5F-8A23-4595-A041-E6498339B061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD1AE5F-8A23-4595-A041-E6498339B061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD1AE5F-8A23-4595-A041-E6498339B061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD1AE5F-8A23-4595-A041-E6498339B061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2809C905-A2A9-4739-AD55-7E9EF123E44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2809C905-A2A9-4739-AD55-7E9EF123E44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2809C905-A2A9-4739-AD55-7E9EF123E44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2809C905-A2A9-4739-AD55-7E9EF123E44B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2809C905-A2A9-4739-AD55-7E9EF123E44B} = {E733D649-8EB7-4E5B-BF62-574CAC64D1CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57E26B54-623A-4052-8D22-7A21DE2940F8}
+	EndGlobalSection
+EndGlobal
